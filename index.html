@@ -11,7 +11,7 @@
     var script;
     window.onload = () => {
       function load_page() {
-        qr = new XMLHttpRequest();
+        let qr = new XMLHttpRequest();
         qr.open("get", "test.htm");
         qr.send();
         qr.onload = function () {
